@@ -14,7 +14,7 @@ Every call first reads the seller's 402 quote **without signing anything**, and 
 git clone <this repo> && cd egg-verify-mcp && npm install
 ```
 
-## Use from an MCP client (Claude Desktop, Cursor, etc.)
+## Use from an MCP client
 
 ```json
 {

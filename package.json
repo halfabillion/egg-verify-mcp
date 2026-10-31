@@ -1,0 +1,33 @@
+{
+  "name": "egg-verify-mcp",
+  "version": "0.1.0",
+  "description": "MCP server and CLI for egg-verify: pay-per-call claim verification, scouting and deep dives over x402 (USDC on Base), with a hard per-call spend cap.",
+  "type": "module",
+  "bin": {
+    "egg-verify-mcp": "src/server.js",
+    "egg-verify": "src/cli.js"
+  },
+  "main": "src/client.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "x402",
+    "mcp",
+    "usdc",
+    "base",
+    "fact-check",
+    "agents"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@x402/evm": "^2.29.0",
+    "@x402/fetch": "^2.29.0",
+    "viem": "^2.57.13",
+    "zod": "^4.6.7"
+  }
+}
